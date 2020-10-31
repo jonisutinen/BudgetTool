@@ -15,14 +15,14 @@ namespace BudgetTool.Models.Models
     public class Income
     {
         public int Id { get; set; }
-        public float NetIncome { get; set; }
-        public float StudyGrant { get; set; }
-        public float StudentLoan { get; set; }
-        public float HousingAllowance { get; set; }
-        public float UnemploymentBenefit { get; set; }
-        public float OtherBenefits { get; set; }
-        public float OtherIncomes { get; set; }
-        public float TotalIncomes { get; set; }
+        public double NetIncome { get; set; }
+        public double StudyGrant { get; set; }
+        public double StudentLoan { get; set; }
+        public double HousingAllowance { get; set; }
+        public double UnemploymentBenefit { get; set; }
+        public double OtherBenefits { get; set; }
+        public double OtherIncomes { get; set; }
+        public double TotalIncomes { get; set; }
     }
 
     public class FixedCost
@@ -32,58 +32,58 @@ namespace BudgetTool.Models.Models
         public InsuranceAndMonthlyCost InsuranceAndMonthlyCosts { get; set; }
         public TravellingCost TravellingCosts { get; set; }
         public LoansAndSavingsCost LoansAndSavingsCosts { get; set; }
-        public float FixedCostsTotal { get; set; }
+        public double FixedCostsTotal { get; set; }
 
         public class LivingCost
         {
             public int Id { get; set; }
-            public float RentOrMortgage { get; set; }
-            public float Heating { get; set; }
-            public float Water { get; set; }
-            public float ElectricityOrGas { get; set; }
-            public float ServiceCharge { get; set; }
-            public float OtherLivingCosts { get; set; }
-            public float LivingCostsTotal { get; set; }
+            public double RentOrMortgage { get; set; }
+            public double Heating { get; set; }
+            public double Water { get; set; }
+            public double ElectricityOrGas { get; set; }
+            public double ServiceCharge { get; set; }
+            public double OtherLivingCosts { get; set; }
+            public double LivingCostsTotal { get; set; }
         }
 
         public class InsuranceAndMonthlyCost
         {
             public int Id { get; set; }
-            public float AccidentInsurance { get; set; }
-            public float TravelInsurance { get; set; }
-            public float HomeInsurance { get; set; }
-            public float MobileAndInternet { get; set; }
-            public float TVAndPaymentChannels { get; set; }
-            public float TradeFundOrUnemploymentFund { get; set; }
-            public float SportAndExercise { get; set; }
-            public float NewspaperAndMagazines { get; set; }
-            public float OtherInsuranceAndMonthlyCosts { get; set; }
-            public float InsuranceAndMonthlyCostsTotal { get; set; }
+            public double AccidentInsurance { get; set; }
+            public double TravelInsurance { get; set; }
+            public double HomeInsurance { get; set; }
+            public double MobileAndInternet { get; set; }
+            public double TVAndPaymentChannels { get; set; }
+            public double TradeFundOrUnemploymentFund { get; set; }
+            public double SportAndExercise { get; set; }
+            public double NewspaperAndMagazines { get; set; }
+            public double OtherInsuranceAndMonthlyCosts { get; set; }
+            public double InsuranceAndMonthlyCostsTotal { get; set; }
 
         }
 
         public class TravellingCost
         {
             public int Id { get; set; }
-            public float TrafficAndVehiceTax { get; set; }
-            public float CarAndMotorcycleInsurance { get; set; }
-            public float Fuel { get; set; }
-            public float CarAndMotorcycleRepair { get; set; }
-            public float PublicTransport { get; set; }
-            public float OtherTravellingCosts { get; set; }
-            public float TravellingCostsTotal { get; set; }
+            public double TrafficAndVehiceTax { get; set; }
+            public double CarAndMotorcycleInsurance { get; set; }
+            public double Fuel { get; set; }
+            public double CarAndMotorcycleRepair { get; set; }
+            public double PublicTransport { get; set; }
+            public double OtherTravellingCosts { get; set; }
+            public double TravellingCostsTotal { get; set; }
         }
 
         public class LoansAndSavingsCost
         {
             public int Id { get; set; }
-            public float StudentLoan { get; set; }
-            public float UsageLoan { get; set; }
-            public float RetirementSaving { get; set; }
-            public float OtherConstantSaving { get; set; }
-            public float CarLoan { get; set; }
-            public float OtherLoansAndSavings { get; set; }
-            public float TotalLoansAndSavings { get; set; }
+            public double StudentLoan { get; set; }
+            public double UsageLoan { get; set; }
+            public double RetirementSaving { get; set; }
+            public double OtherConstantSaving { get; set; }
+            public double CarLoan { get; set; }
+            public double OtherLoansAndSavings { get; set; }
+            public double TotalLoansAndSavings { get; set; }
         }
 
     }
@@ -92,14 +92,14 @@ namespace BudgetTool.Models.Models
     public class VariableCost
     {
         public int Id { get; set; }
-        public float FoodAndDailyEquipments { get; set; }
-        public float DoctorAndMedicines { get; set; }
-        public float Clothing { get; set; }
-        public float Freetime { get; set; }
-        public float FurnitureAndDecoration { get; set; }
-        public float Vacation { get; set; }
-        public float OtherVariableCosts { get; set; }
-        public float TotalVariableCosts { get; set; }
+        public double FoodAndDailyEquipments { get; set; }
+        public double DoctorAndMedicines { get; set; }
+        public double Clothing { get; set; }
+        public double Freetime { get; set; }
+        public double FurnitureAndDecoration { get; set; }
+        public double Vacation { get; set; }
+        public double OtherVariableCosts { get; set; }
+        public double TotalVariableCosts { get; set; }
     }
 
     
